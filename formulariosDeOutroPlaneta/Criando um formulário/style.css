@@ -1,0 +1,9 @@
+* {
+    margin: 5px;
+}
+
+fieldset {
+    margin: 2px;
+    width: 3px;
+    padding: 15px;
+}
