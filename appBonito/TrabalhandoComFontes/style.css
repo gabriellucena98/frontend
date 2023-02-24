@@ -1,0 +1,27 @@
+p {
+    font-family: sans-serif;
+
+}
+
+.weight {
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+}
+
+.style {
+    font-family: "Times New Roman", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.size {
+    font-family: "Times New Roman", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.web {
+    font-family: "Rubik Bubbles", cursive;
+    font-size: 16px;
+}

@@ -1,0 +1,39 @@
+p {
+    font-family: "Times New Roman", sans-serif;
+    font-variant: normal;
+}
+
+.stretch {
+    font-stretch: 50%;
+}
+
+.spacing {
+    letter-spacing: 3px;
+    word-spacing: 1.8em;
+}
+
+.height {
+    line-height: 2.6;
+}
+
+.transform {
+    text-transform: capitalize;
+}
+
+.decoration {
+    text-decoration: line-through yellow;
+}
+
+.align {
+    text-align: center;
+}
+
+.shadow {
+    text-shadow: 1px 1px 1px green, /* offset-x / offset-y / blur-radius / color */
+                2px 2px 1px blue;
+}
+
+.shorthand {
+    /* -style, -variant, -weight, -stretch, -size, line-height, e -family  */
+    font: italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Utilizando o fieldset dentro do form -->
+    <!-- pra linkar o label com o input, podemos colocar dentro dele ou usar o id, mesma coisa pro
+        butto e formulário-->
+    <fieldset id="contato">
+        <legend>Contato</legend>
+        <label for="nome">Nome</label>
+        <input id="nome" type="text">
+    </fieldset>
+
+    <form id="contato" action="" method="">
+        <button>Enviar</button>
+    </form>
+
+    <!-- BUTTON-->
+
+    <button type="submit" name="button" value="Valor qualquer">Enviar</button>
+
+    <!-- Outra forma de linkar é colocando o form-->
+    <form action="" id="meu-form"></form>
+    <button type="submit" form="meu-form">Send</button>
+
+    <!--Ouuu, porém na maioria das vezes a gente usa o botão-->
+    <input type="submit" form="meu-form" value="Enviar">
+    <br>
+
+    <!-- Datalist-->
+    <input type="text" list="fruitslist" placeholder="Escolha uma fruta">
+
+    <datalist id="fruitslist">
+        <option>Morando</option>
+        <option>Maçã</option>
+    </datalist>
+
+    <datalist id="colores">
+        <option>#ff0000</option>
+        <option>#00ff00</option>
+    </datalist>
+
+    <input type="color" list="colores">
+</body>
+</html>
